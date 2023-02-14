@@ -74,20 +74,6 @@ plugins:
       separator: '[\s\u200b\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - social
   - typeset
-  - git-revision-date-localized:
-      enabled: !ENV [CI, false]
-      enable_creation_date: true
-      type: timeago
-      exclude:
-        - blog/archive/*
-        - blog/category/*
-  - git-committers:
-      enabled: !ENV [CI, false]
-      repository: squidfunk/mkdocs-material
-  - optimize:
-      enabled: !ENV [CI, false]
-  - minify:
-      minify_html: !ENV [CI, false]
 
 # Hooks
 hooks:
