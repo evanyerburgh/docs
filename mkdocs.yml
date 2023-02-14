@@ -74,9 +74,6 @@ plugins:
       separator: '[\s\u200b\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - social
   - typeset
-  - redirects:
-      redirect_maps:
-
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
       enable_creation_date: true
