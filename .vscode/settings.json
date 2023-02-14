@@ -12,6 +12,7 @@
     "docs/schema.json": "mkdocs.yml"
   },
   "yaml.customTags": [
+    
     "!ENV scalar",
     "!ENV sequence",
     "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
