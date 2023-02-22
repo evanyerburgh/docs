@@ -1,7 +1,7 @@
 site_name: BDRC developer portal
 repo_name: evanyerburgh/docs
 repo_url: https://github.com/evanyerburgh/docs
-
+edit_uri: "blob/master/docs/docs"
 
 site_author: Evan Yerburgh and Elie Roux
 site_description: >-
@@ -34,7 +34,7 @@ theme:
 nav:
   - Home: index.md
   - Pecha Data:
-    - Test: docs/test.md
+    - Test: ` `test.md
     
 markdown_extensions:
   - toc:
